@@ -40,6 +40,6 @@ done < "./$CONFIG_FILE"
 
 echo ""
 echo "📤 Pushing changes..."
-git push
+git push -u origin main
 
 echo "✅ Sync complete"
