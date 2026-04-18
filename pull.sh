@@ -1,20 +1,21 @@
 #!/bin/bash
-
 set -e
 
 CONFIG_FILE="repos.txt"
 
-# read config file
+if [ ! -f "$CONFIG_FILE" ]; then
+  echo "Config file not found!"
+  exit 1
+fi
+
 while read -r prefix url branch; do
-  # skip comments or empty lines
   [[ "$prefix" =~ ^#.*$ || -z "$prefix" ]] && continue
 
-  echo "Adding $prefix..."
-  git subtree add --prefix=$prefix $url $branch
+  echo "Updating $prefix..."
+  git subtree pull --prefix="$prefix" "$url" "$branch"
 
-done < ./$CONFIG_FILE
+done < "$CONFIG_FILE"
 
-
-git push
+git push -u origin main
 
 echo "✅ All repos updated"

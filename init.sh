@@ -5,12 +5,18 @@ set -e
 CONFIG_FILE="repos.txt"
 
 while read -r prefix url branch; do
+  # skip comments or empty lines
   [[ "$prefix" =~ ^#.*$ || -z "$prefix" ]] && continue
 
-  echo "Updating $prefix..."
-  git subtree pull --prefix=$prefix $url $branch
+  # check if subtree already exists (tracked in git)
+  if git ls-tree -d HEAD "$prefix" > /dev/null 2>&1; then
+    echo "⏭️  Skipping $prefix (already exists)"
+    continue
+  fi
 
-done < $CONFIG_FILE# push
-git push -u origin main
+  echo "➕ Adding $prefix..."
+  git subtree add --prefix="$prefix" "$url" "$branch"
+
+done < "./$CONFIG_FILE"
 
 echo "✅ Setup complete"
