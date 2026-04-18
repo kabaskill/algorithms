@@ -1,0 +1,192 @@
+# List of all files
+
+## Ciphers
+  * [Atbashcipher](./Ciphers/AtbashCipher.php)
+  * [Caesarcipher](./Ciphers/CaesarCipher.php)
+  * [Monoalphabeticcipher](./Ciphers/MonoAlphabeticCipher.php)
+  * [Morsecode](./Ciphers/MorseCode.php)
+  * [Railfencecipher](./Ciphers/RailfenceCipher.php)
+  * [Vignerecipher](./Ciphers/VignereCipher.php)
+  * [Xorcipher](./Ciphers/XORCipher.php)
+
+## Conversions
+  * [Binarytodecimal](./Conversions/BinaryToDecimal.php)
+  * [Decimaltobinary](./Conversions/DecimalToBinary.php)
+  * [Hexadecimaltodecimal](./Conversions/HexadecimalToDecimal.php)
+  * [Octaltodecimal](./Conversions/OctalToDecimal.php)
+  * [Speedconversion](./Conversions/SpeedConversion.php)
+  * [Temperatureconversions](./Conversions/TemperatureConversions.php)
+
+## Datastructures
+  * Avltree
+    * [Avltree](./DataStructures/AVLTree/AVLTree.php)
+    * [Avltreenode](./DataStructures/AVLTree/AVLTreeNode.php)
+    * [Treetraversal](./DataStructures/AVLTree/TreeTraversal.php)
+  * Binarysearchtree
+    * [Binarytreetraversal](./DataStructures/BinarySearchTree/BinaryTreeTraversal.php)
+    * [Bstnode](./DataStructures/BinarySearchTree/BSTNode.php)
+    * [Bstree](./DataStructures/BinarySearchTree/BSTree.php)
+    * [Duplicatekeyexception](./DataStructures/BinarySearchTree/DuplicateKeyException.php)
+  * Comparebinarytree
+    * [Binarytreenode](./DataStructures/CompareBinaryTree/BinaryTreeNode.php)
+    * [Comparebinarytree](./DataStructures/CompareBinaryTree/CompareBinaryTree.php)
+  * Disjointsets
+    * [Disjointset](./DataStructures/DisjointSets/DisjointSet.php)
+    * [Disjointsetnode](./DataStructures/DisjointSets/DisjointSetNode.php)
+  * [Doublylinkedlist](./DataStructures/DoublyLinkedList.php)
+  * Invertbinarytree
+    * [Binarytree](./DataStructures/InvertBinaryTree/BinaryTree.php)
+    * [Invertbinarytree](./DataStructures/InvertBinaryTree/InvertBinaryTree.php)
+  * [Node](./DataStructures/Node.php)
+  * [Queue](./DataStructures/Queue.php)
+  * Reverselinkedlist
+    * [Linkedlistitem](./DataStructures/ReverseLinkedList/LinkedListItem.php)
+    * [Reverselinkedlist](./DataStructures/ReverseLinkedList/ReverseLinkedList.php)
+  * Segmenttree
+    * [Segmenttree](./DataStructures/SegmentTree/SegmentTree.php)
+    * [Segmenttreenode](./DataStructures/SegmentTree/SegmentTreeNode.php)
+  * [Singlylinkedlist](./DataStructures/SinglyLinkedList.php)
+  * Splaytree
+    * [Splaytree](./DataStructures/SplayTree/SplayTree.php)
+    * [Splaytreenode](./DataStructures/SplayTree/SplayTreeNode.php)
+    * [Splaytreerotations](./DataStructures/SplayTree/SplayTreeRotations.php)
+  * [Stack](./DataStructures/Stack.php)
+  * Trie
+    * [Trie](./DataStructures/Trie/Trie.php)
+    * [Trienode](./DataStructures/Trie/TrieNode.php)
+
+## Graphs
+  * [Bellmanford](./Graphs/BellmanFord.php)
+  * [Breadthfirstsearch](./Graphs/BreadthFirstSearch.php)
+  * [Depthfirstsearch](./Graphs/DepthFirstSearch.php)
+  * [Dijkstras](./Graphs/Dijkstras.php)
+  * [Graphedge](./Graphs/GraphEdge.php)
+
+## Maths
+  * [Absolutemax](./Maths/AbsoluteMax.php)
+  * [Absolutemin](./Maths/AbsoluteMin.php)
+  * [Armstrongnumber](./Maths/ArmstrongNumber.php)
+  * [Basex](./Maths/BaseX.php)
+  * [Checkeven](./Maths/CheckEven.php)
+  * [Checkodd](./Maths/CheckOdd.php)
+  * [Checkpalindrome](./Maths/CheckPalindrome.php)
+  * [Checkprime](./Maths/CheckPrime.php)
+  * [Eratosthenessieve](./Maths/EratosthenesSieve.php)
+  * [Factorial](./Maths/Factorial.php)
+  * [Fastexponentiation](./Maths/FastExponentiation.php)
+  * [Fastinversesquareroot](./Maths/FastInverseSquareRoot.php)
+  * [Fibonacci](./Maths/Fibonacci.php)
+  * [Fibonacci2](./Maths/Fibonacci2.php)
+  * [Greatestcommondivisor](./Maths/GreatestCommonDivisor.php)
+  * [Mean](./Maths/Mean.php)
+  * [Median](./Maths/Median.php)
+  * [Mode](./Maths/Mode.php)
+  * [Neonnumber](./Maths/NeonNumber.php)
+  * [Perfectnumber](./Maths/PerfectNumber.php)
+  * [Perfectsquare](./Maths/PerfectSquare.php)
+  * Projecteuler
+    * [Problem1](./Maths/ProjectEuler/Problem1.php)
+    * [Problem10](./Maths/ProjectEuler/Problem10.php)
+    * [Problem11](./Maths/ProjectEuler/Problem11.php)
+    * [Problem2](./Maths/ProjectEuler/Problem2.php)
+    * [Problem3](./Maths/ProjectEuler/Problem3.php)
+    * [Problem4](./Maths/ProjectEuler/Problem4.php)
+    * [Problem5](./Maths/ProjectEuler/Problem5.php)
+    * [Problem6](./Maths/ProjectEuler/Problem6.php)
+    * [Problem7](./Maths/ProjectEuler/Problem7.php)
+    * [Problem8](./Maths/ProjectEuler/Problem8.php)
+    * [Problem9](./Maths/ProjectEuler/Problem9.php)
+
+## Neuralnetworks
+  * Perceptronclassifier
+    * [Neuralnetworkperceptronclassifier](./NeuralNetworks/PerceptronClassifier/NeuralNetworkPerceptronClassifier.php)
+
+## Searches
+  * [Binarysearch](./Searches/BinarySearch.php)
+  * [Exponentialsearch](./Searches/ExponentialSearch.php)
+  * [Fibonaccisearch](./Searches/FibonacciSearch.php)
+  * [Interpolationsearch](./Searches/InterpolationSearch.php)
+  * [Jumpsearch](./Searches/JumpSearch.php)
+  * [Linearsearch](./Searches/LinearSearch.php)
+  * [Lowerbound](./Searches/LowerBound.php)
+  * [Sentinelsearch](./Searches/SentinelSearch.php)
+  * [Ternarysearch](./Searches/TernarySearch.php)
+  * [Twopointers](./Searches/TwoPointers.php)
+  * [Upperbound](./Searches/UpperBound.php)
+
+## Sorting
+  * [Arraykeyssort](./Sorting/ArrayKeysSort.php)
+  * [Bubblesort](./Sorting/BubbleSort.php)
+  * [Bubblesort2](./Sorting/BubbleSort2.php)
+  * [Countsort](./Sorting/CountSort.php)
+  * [Gnomesort](./Sorting/GnomeSort.php)
+  * [Heapsort](./Sorting/HeapSort.php)
+  * [Insertionsort](./Sorting/InsertionSort.php)
+  * [Mergesort](./Sorting/MergeSort.php)
+  * [Quicksort](./Sorting/QuickSort.php)
+  * [Radixsort](./Sorting/RadixSort.php)
+  * [Selectionsort](./Sorting/SelectionSort.php)
+  * [Shellsort](./Sorting/ShellSort.php)
+
+## Strings
+  * [Checkanagram](./Strings/CheckAnagram.php)
+  * [Checkpalindrome](./Strings/CheckPalindrome.php)
+  * [Checkpalindrome2](./Strings/CheckPalindrome2.php)
+  * [Countconsonants](./Strings/CountConsonants.php)
+  * [Counthomogenous](./Strings/CountHomogenous.php)
+  * [Countsentences](./Strings/CountSentences.php)
+  * [Countvowels](./Strings/CountVowels.php)
+  * [Distance](./Strings/Distance.php)
+  * [Maxcharacter](./Strings/MaxCharacter.php)
+  * [Reversestring](./Strings/ReverseString.php)
+  * [Reversewords](./Strings/ReverseWords.php)
+
+## Tests
+  * Ciphers
+    * [Atbashciphertest](./tests/Ciphers/AtbashCipherTest.php)
+    * [Cipherstest](./tests/Ciphers/CiphersTest.php)
+    * [Monoalphabeticciphertest](./tests/Ciphers/MonoAlphabeticCipherTest.php)
+    * [Morsecodetest](./tests/Ciphers/MorseCodeTest.php)
+    * [Railfenceciphertest](./tests/Ciphers/RailfenceCipherTest.php)
+    * [Vignereciphertest](./tests/Ciphers/VignereCipherTest.php)
+  * Conversions
+    * [Conversionstest](./tests/Conversions/ConversionsTest.php)
+  * Datastructures
+    * [Avltreetest](./tests/DataStructures/AVLTreeTest.php)
+    * [Bstreetest](./tests/DataStructures/BSTreeTest.php)
+    * [Comparebinarytreetest](./tests/DataStructures/CompareBinaryTreeTest.php)
+    * [Disjointsettest](./tests/DataStructures/DisjointSetTest.php)
+    * [Doublylinkedlisttest](./tests/DataStructures/DoublyLinkedListTest.php)
+    * [Invertbinarytreetest](./tests/DataStructures/InvertBinaryTreeTest.php)
+    * [Queuetest](./tests/DataStructures/QueueTest.php)
+    * [Reverselinkedlisttest](./tests/DataStructures/ReverseLinkedListTest.php)
+    * [Segmenttreetest](./tests/DataStructures/SegmentTreeTest.php)
+    * [Singlylinkedlisttest](./tests/DataStructures/SinglyLinkedListTest.php)
+    * [Splaytreetest](./tests/DataStructures/SplayTreeTest.php)
+    * [Stacktest](./tests/DataStructures/StackTest.php)
+    * [Trietest](./tests/DataStructures/TrieTest.php)
+  * Graphs
+    * [Bellmanfordtest](./tests/Graphs/BellmanFordTest.php)
+    * [Breadthfirstsearchtest](./tests/Graphs/BreadthFirstSearchTest.php)
+    * [Depthfirstsearchtest](./tests/Graphs/DepthFirstSearchTest.php)
+    * [Dijkstrastest](./tests/Graphs/DijkstrasTest.php)
+  * Maths
+    * [Eratosthenessievetest](./tests/Maths/EratosthenesSieveTest.php)
+    * [Mathstest](./tests/Maths/MathsTest.php)
+    * [Projecteulertest](./tests/Maths/ProjectEulerTest.php)
+  * Neuralnetworks
+    * Perceptronclassifier
+      * [Neuralnetworkperceptronclassifiertest](./tests/NeuralNetworks/PerceptronClassifier/NeuralNetworkPerceptronClassifierTest.php)
+  * Searches
+    * [Searchestest](./tests/Searches/SearchesTest.php)
+  * Sorting
+    * [Arraykeyssorttest](./tests/Sorting/ArrayKeysSortTest.php)
+    * [Gnomesorttest](./tests/Sorting/GnomeSortTest.php)
+    * [Shellsorttest](./tests/Sorting/ShellSortTest.php)
+    * [Sortingtest](./tests/Sorting/SortingTest.php)
+  * Strings
+    * [Stringstest](./tests/Strings/StringsTest.php)
+
+## Utils
+  * [Arrayhelpers](./Utils/ArrayHelpers.php)
+  * [Executiontime](./Utils/ExecutionTime.php)
