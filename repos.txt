@@ -3,7 +3,7 @@ rust https://github.com/TheAlgorithms/Rust master
 java https://github.com/TheAlgorithms/Java master
 python https://github.com/TheAlgorithms/Python master
 go https://github.com/TheAlgorithms/Go master
-javascript https://github.com/TheAlgorithms/JavaScript main
+javascript https://github.com/TheAlgorithms/JavaScript master
 explanations https://github.com/TheAlgorithms/Algorithms-Explanation master
 lua https://github.com/TheAlgorithms/Lua master
 typescript https://github.com/TheAlgorithms/TypeScript master
