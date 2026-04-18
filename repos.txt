@@ -1,0 +1,12 @@
+# prefix | repo_url | branch
+rust https://github.com/TheAlgorithms/Rust main
+java https://github.com/TheAlgorithms/Java main
+python https://github.com/TheAlgorithms/Python main
+go https://github.com/TheAlgorithms/Go main
+javascript https://github.com/TheAlgorithms/JavaScript main
+explanations https://github.com/TheAlgorithms/Algorithms-Explanation main
+lua https://github.com/TheAlgorithms/Lua main
+typescript https://github.com/TheAlgorithms/TypeScript main
+swift https://github.com/TheAlgorithms/Swift main
+c https://github.com/TheAlgorithms/C main
+php https://github.com/TheAlgorithms/PHP main
